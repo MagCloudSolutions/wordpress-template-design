@@ -1,0 +1,18 @@
+body{
+    background-color: gray;
+}
+.main {
+    padding: 18px!important;
+    margin: 0px auto;
+    width: 400px;
+  }
+h3 {
+      padding: 10px 0 20px;
+      text-align: center;
+    }
+@media screen and (max-width: 480px){
+.container-sm{
+    --bs-gutter-x:1rem!important;
+}
+}
+.bdr {border-radius: 6px;}
